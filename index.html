@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sai Rajiv Garapati ~ Portfolio</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body class="dark">
+    <header class="nav">
+      <a class="brand" href="#home"> Sai Rajiv Garapati</a>
+      <nav class="menu">
+        <a href="#home" title="Home"
+          ><i data-feather="home"></i><span>Home</span></a
+        >
+        <a href="#expertise" title="Expertise"
+          ><i data-feather="zap"></i><span>Expertise</span></a
+        >
+        <a href="#work" title="Work"
+          ><i data-feather="briefcase"></i><span>Work</span></a
+        >
+        <a href="#experience" title="Experience"
+          ><i data-feather="bar-chart-2"></i><span>Experience</span></a
+        >
+        <a href="#contact" title="Contact"
+          ><i data-feather="mail"></i><span>Contact</span></a
+        >
+      </nav>
+
+      <button id="themeToggle" aria-label="Toggle theme" title="Toggle theme">
+        ☾
+      </button>
+    </header>
+
+    <main id="home" class="section hero">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="accent">Sai Rajiv Garapati</span>.</h1>
+        <p class="kicker">Software Developer</p>
+        <p class="sub">
+          I build clean, performant websites and mobile apps using
+          <strong>React.js</strong>, <strong>React Native</strong>, and
+          <strong>.NET</strong>. I focus on smooth UI/UX, optimized code, and
+          reliable delivery.
+        </p>
+        <div class="badges">
+          <span>React.js</span><span>React Native</span><span>.NET</span
+          ><span>MySQL</span><span>HTML</span><span>CSS</span><span>Java</span
+          ><span>Python</span>
+        </div>
+        <div class="cta">
+          <a class="btn primary" href="#work">See my work</a>
+          <a class="btn ghost" href="#contact">Contact me</a>
+        </div>
+      </div>
+      <div class="hero-orb" aria-hidden="true"></div>
+    </main>
+
+    <section id="expertise" class="section">
+      <div class="container">
+        <h2>Expertise</h2>
+        <p class="lead">
+          Front-end, mobile, and backend glue ~ with a focus on React and .NET.
+        </p>
+        <div class="grid cards">
+          <article class="card">
+            <h3>Frontend Dev</h3>
+            <p>
+              React, Redux, Axios, modern CSS. Accessible, responsive, and fast.
+            </p>
+            <ul class="chiplist">
+              <li>React</li>
+              <li>Redux</li>
+              <li>Axios</li>
+              <li>CSS Modules</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Mobile Apps</h3>
+            <p>
+              React Native for Android — login flows, OTP, camera, native
+              modules, and API integration.
+            </p>
+            <ul class="chiplist">
+              <li>React Native</li>
+              <li>Android</li>
+              <li>Native Modules</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>APIs & Backend</h3>
+            <p>
+              .NET Web API, SQL design, authentication with JWT, role-based
+              access, and file/PDF workflows.
+            </p>
+            <ul class="chiplist">
+              <li>.NET</li>
+              <li>SQL Server/MySQL</li>
+              <li>JWT</li>
+              <li>QuestPDF</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section alt">
+      <div class="container">
+        <h2>Work</h2>
+        <p class="lead">Selected projects that map to what I do best.</p>
+
+        <div class="grid projects">
+          <!-- SAFARI -->
+          <article class="project">
+            <div class="project-cover">
+              <img src="./images/Safari.webp" class="img-fluid" />
+            </div>
+            <div class="project-meta">
+              <h3>SAFARI</h3>
+              <p>
+                Safari industries project of Vendor Onboarding, Vendor Portal,
+                Accounts Payable integrating .NET APIs with React.js UI.
+              </p>
+              <ul class="chiplist small">
+                <li>React.js</li>
+                <li>.NET API</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- HR Portal -->
+          <article class="project">
+            <div class="project-cover">
+              <img src="./images/HrPortal.jpg" class="img-fluid" />
+            </div>
+            <div class="project-meta">
+              <h3>HR Portal</h3>
+              <p>
+                Internal HR system with attendance, leaves, payslips, and
+                reporting.
+              </p>
+              <ul class="chiplist small">
+                <li>React.js</li>
+                <li>.NET API</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Support Nest -->
+          <article class="project">
+            <div class="project-cover">
+              <img src="./images/SupportNest.webp" class="img-fluid" />
+            </div>
+            <div class="project-meta">
+              <h3>Support Nest</h3>
+              <p>Project of ticketing support portal with web & mobile apps.</p>
+              <ul class="chiplist small">
+                <li>React.js</li>
+                <li>React Native</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- TATA COFFEE - Fleet Management -->
+          <article class="project">
+            <div class="project-cover">
+              <img src="./images/FleetManagement.webp" class="img-fluid" />
+            </div>
+            <div class="project-meta">
+              <h3>TATA COFFEE - Fleet Management</h3>
+              <p>Client app for vehicle fleet tracking & monitoring.</p>
+              <ul class="chiplist small">
+                <li>React.js</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Yazaki - RFID -->
+          <article class="project">
+            <div class="project-cover">
+              <img src="./images/Rfid.webp" class="img-fluid" />
+            </div>
+            <div class="project-meta">
+              <h3>Yazaki - RFID</h3>
+              <p>RFID devices tracking interface.</p>
+              <ul class="chiplist small">
+                <li>React.js</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- FingerPrint Attendance (Mobile app)-->
+          <article class="project">
+            <div class="project-cover">
+              <img src="./images/FingerprintMobile.webp" class="img-fluid" />
+            </div>
+            <div class="project-meta">
+              <h3>FingerPrint Attendance Mobile Application</h3>
+              <p>
+                Fingerprint attendance tracking interface through secugen
+                device.
+              </p>
+              <ul class="chiplist small">
+                <li>Java</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Wedding Planner -->
+          <article class="project">
+            <div class="project-cover">
+              <img src="./images/WeddingPlanner.webp" class="img-fluid" />
+            </div>
+            <div class="project-meta">
+              <h3>Wedding Planner</h3>
+              <p>
+                Website built with HTML, CSS, and JavaScript for event planning.
+              </p>
+              <ul class="chiplist small">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- CareerscopeLabs website -->
+          <article
+            class="project"
+            onclick="window.location.href='https://careerscopelabs.com/'"
+          >
+            <div class="project-cover">
+              <img src="./images/careerScope.webp" class="img-fluid" />
+            </div>
+            <div class="project-meta">
+              <h3>CareerScopeLabs Website</h3>
+              <p>
+                Client website built with HTML, CSS, and JavaScript for
+                internship training.
+              </p>
+              <ul class="chiplist small">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- V Card -->
+          <article class="project">
+            <div class="project-cover">
+              <img src="./images/Vcard.webp" class="img-fluid" />
+            </div>
+            <div class="project-meta">
+              <h3>V Card</h3>
+              <p>Digital business card mobile app.</p>
+              <ul class="chiplist small">
+                <li>React Native</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Experience</h2>
+        <ol class="timeline">
+          <li>
+            <div>
+              <h3>ITEOS LLP [Software Developer]</h3>
+              <time>April, 2024 - Present Day</time>
+              <p>
+                React/React Native + .NET. Built admin portals, OCR tools,CRUD
+                dashboards, auth flows and Android modules.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>Uttara Info Solutions [Java Fullstack Development Course]</h3>
+              <time>November, 2022 - July, 2023</time>
+              <p>
+                Completed an intensive full-stack development program focused on
+                building end-to-end applications using Java and modern web
+                technologies. The course emphasized strong programming
+                fundamentals, real-time project development, and hands-on
+                implementation
+              </p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>Lixo Technologies [Python Internship]</h3>
+              <time>August, 2022 - November, 2022</time>
+              <p>
+                During my Python internship, I learned the fundamentals of
+                Python programming and gained hands-on experience in IoT
+                development using Python.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container contact">
+        <h2>Contact</h2>
+        <p class="lead">Open to full-time roles and freelance projects.</p>
+        <div class="contact-grid">
+          <!-- Call -->
+          <a class="btn" href="tel:+918459489754">
+            <i data-feather="phone"></i>
+            <span>Call me</span>
+          </a>
+
+          <!-- Email -->
+          <a
+            class="btn"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=garapatirajiv@gmail.com&su=Important&body=Hi%20Sai,%20I%20want%20to%20talk..."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i data-feather="mail"></i>
+            <span>Email me</span>
+          </a>
+
+          <!-- LinkedIn -->
+          <a
+            class="btn"
+            href="https://www.linkedin.com/in/sai-rajiv-garapati-711bb1220/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i data-feather="linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+
+          <!-- GitHub -->
+          <a
+            class="btn"
+            href="https://github.com/rajiv8055"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i data-feather="github"></i>
+            <span>GitHub</span>
+          </a>
+
+          <!-- Resume -->
+          <a class="btn" href="#" target="_blank" rel="noopener noreferrer">
+            <i data-feather="file-text"></i>
+            <span>Resume (PDF)</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Sai Rajiv Garapati.</p>
+        <div class="right">
+          <a href="#home"><i data-feather="arrow-up-circle"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
